@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FRAGMENT FORGE // Flag Hunt</title>
+<meta name="description" content="Fragment Forge, Case File 001. A shattered flag is pinned across three exhibits.">
+<link rel="stylesheet" href="assets/hunt.css">
+</head>
+<body>
+<div class="tape tape-tl">CYBERSURFER CTF</div>
+<div class="tape tape-br">DO NOT REMOVE</div>
+
+<header class="rail">
+  <div class="plate">
+    <div class="brass">
+      <span class="brass-mark">F</span>
+      <span>
+        <span class="brass-name">Fragment Forge</span>
+        <span class="brass-sub">Field Bureau &middot; Case 001</span>
+      </span>
+    </div>
+    <nav class="tacks" aria-label="Case sections">
+      <a class="tack on" href="index.html">Case Board</a>
+      <a class="tack" href="gallery.html">Exhibit Hall</a>
+      <a class="tack" href="terminal.html">Field Lab</a>
+    </nav>
+  </div>
+</header>
+
+<main class="board">
+  <section class="file-head">
+    <p class="overline">Case File 001 &middot; Flag Hunt</p>
+    <h1>Fragment Forge</h1>
+    <p class="filed">Three exhibits. Three hiding places. One complete flag.</p>
+    <span class="stamp">Open</span>
+  </section>
+
+  <section class="dossier">
+    <h2>Detective Brief</h2>
+    <p>
+      A trophy flag was seized and deliberately shattered into <strong>three
+      fragments</strong> before it could be surrendered. The pieces were pinned
+      to this bureau, but nobody wrote down where.
+    </p>
+    <p>
+      None of the pieces are printed on any card. Examine what each exhibit
+      <em>loads</em>, then forge the three pieces back into a single flag.
+    </p>
+    <div class="witness">
+      <strong>Chain of custody:</strong> the exhibit hall, the field lab rig and
+      the stylesheet were all signed out by the same clerk. What a clerk writes
+      is not always what a page shows.
+    </div>
+  </section>
+
+  <ul class="evidence">
+    <li data-examine="sheet">
+      <span class="pin" aria-hidden="true"></span>
+      <span class="ev-no">01</span>
+      <span class="ev-q">?</span>
+      <span class="ev-name">Stylesheet</span>
+      <p>The look of a page is written in a file you never see rendered.</p>
+    </li>
+    <li data-examine="script">
+      <span class="pin" aria-hidden="true"></span>
+      <span class="ev-no">02</span>
+      <span class="ev-q">?</span>
+      <span class="ev-name">Scripts</span>
+      <p>The rig keeps a running log that the page never prints.</p>
+    </li>
+    <li data-examine="browser">
+      <span class="pin" aria-hidden="true"></span>
+      <span class="ev-no">03</span>
+      <span class="ev-q">?</span>
+      <span class="ev-name">The Browser</span>
+      <p>Every visit leaves a receipt behind.</p>
+    </li>
+  </ul>
+
+  <p class="hint">
+    <b>Detective hint</b><br>
+    Read the file behind the paint, read the log behind the page, and read the
+    receipt the browser kept. Then obey the order the pieces ask for, not the
+    order you found them in.
+  </p>
+</main>
+
+<footer>Fragment Forge &middot; Examine &middot; Decode &middot; Order &middot; Combine</footer>
+
+<script src="assets/hunt.js"></script>
+</body>
+</html>

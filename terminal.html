@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FRAGMENT FORGE // Field Lab</title>
+<meta name="description" content="Fragment Forge, Case File 001. Forensic analysis rig.">
+<link rel="stylesheet" href="assets/hunt.css">
+</head>
+<body>
+<div class="tape tape-tl">LAB ACCESS</div>
+<div class="tape tape-br">LOG EVERYTHING</div>
+
+<header class="rail">
+  <div class="plate">
+    <div class="brass">
+      <span class="brass-mark">F</span>
+      <span>
+        <span class="brass-name">Fragment Forge</span>
+        <span class="brass-sub">Field Bureau &middot; Case 001</span>
+      </span>
+    </div>
+    <nav class="tacks" aria-label="Case sections">
+      <a class="tack" href="index.html">Case Board</a>
+      <a class="tack" href="gallery.html">Exhibit Hall</a>
+      <a class="tack on" href="terminal.html">Field Lab</a>
+    </nav>
+  </div>
+</header>
+
+<main class="board">
+  <section class="lab">
+    <p class="overline">Field Lab &middot; Node 02</p>
+    <h1>Forensic Rig</h1>
+    <p class="filed">Rig status: online &middot; archive: shattered &middot; log: listening</p>
+
+    <button class="btn" type="button" data-action="scan">Run Forensic Scan</button>
+
+    <div class="readout" id="output">Rig idle. Awaiting operator.</div>
+  </section>
+
+  <p class="hint">
+    <b>Operator hint</b><br>
+    The rig prints a summary on the wall, but the full log goes somewhere the
+    page cannot reach. The browser also keeps a receipt from this visit. The
+    label on the rig itself names its own position in the sequence.
+  </p>
+</main>
+
+<footer>Field Lab &middot; Node 02</footer>
+
+<script src="assets/hunt.js"></script>
+<script src="assets/terminal.js"></script>
+</body>
+</html>
